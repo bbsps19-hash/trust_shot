@@ -125,6 +125,22 @@ body.debug .hotspot {
   height: 47.22%;
 }
 
+.map-stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max(100vw, calc(100vh * 1672 / 941));
+  width: max(100dvw, calc(100dvh * 1672 / 941));
+  height: max(100vh, calc(100vw * 941 / 1672));
+  height: max(100dvh, calc(100dvw * 941 / 1672));
+  transform: translate(-50%, -50%);
+}
+
+.map-stage .screen-bg {
+  position: absolute;
+  inset: 0;
+}
+
 .map-arcade-hotspot {
   left: 4.69%;
   top: 33.33%;
